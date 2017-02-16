@@ -20,4 +20,6 @@
   <project name="Khaon/arm-cortex_a15-linux-gnueabihf-linaro_4.7.4" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="github" revision="master"/>
   <remove-project name="android_frameworks_av"/>
   <project name="sooti/android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1"/>
+  <remove-project name="android_vendor_pure" />
+  <project name="sooti/android_vendor_pure" path="vendor/pure" remote="github" revision="android-7.1"/>
 </manifest>
