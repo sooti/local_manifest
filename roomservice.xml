@@ -8,7 +8,7 @@
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project name="omnirom/android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="android-7.1" />
   <remove-project name="android_system_sepolicy" />
-  <project name="sooti/android_system_sepolicy" path="system/sepolicy" remote="github" revision="aosp-7.1" />
+  <project name="sooti/android_system_sepolicy" path="system/sepolicy" remote="github" revision="aosp-7.1.2" />
   <remove-project name="platform/hardware/invensense" />
   <project name="omnirom/android_hardware_invensense" path="hardware/invensense" remote="github" revision="android-7.1" />
   <project name="sooti/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="aosp-7.1.0" />
@@ -18,8 +18,8 @@
   <remove-project name="platform/external/e2fsprogs"/>
   <project name="Khaon/android_external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="master"/>
   <project name="Khaon/arm-cortex_a15-linux-gnueabihf-linaro_4.7.4" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" remote="github" revision="master"/>
-  <remove-project name="android_frameworks_av"/>
-  <project name="sooti/android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1"/>
+  <remove-project name="android_frameworks_av" />
+  <project name="sooti/android_frameworks_av" path="frameworks/av" remote="github" revision="android-7.1.2"/>
   <remove-project name="android_vendor_pure" />
   <project name="sooti/android_vendor_pure" path="vendor/pure" remote="github" revision="android-7.1"/>
 </manifest>
