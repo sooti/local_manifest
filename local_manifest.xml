@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="Unlegacy-Android"
+           fetch="https://github.com/Unlegacy-Android" 
+           revision="aosp-7.1" />
+
+  <remote  name="laos"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/cm-14.1" />
+	
+  <remote  name="pure-caf"
+           fetch="https://github.com/pure-caf" 
+           revision="n-mr2" /> 
+
+<!-- G3-Specific -->
+  <project path="device/lge/d855" name="device_lge_d855" remote="pure-caf" revision="n-mr2" />
+  <project path="device/lge/g3-common" name="device_lge_g3-common" remote="pure-caf" revision="n-mr2"/>
+  <project path="device/lge/mako" name="g3-aosp-n/android_device_lge_mako" remote="github" revision="aosp-7.1.2" />
+  <project path="kernel/lge/mako" name="lge-kernel-mako" remote="laos" revision="cm-14.1" />
+  <project path="kernel/lge/g3" name="G3-aosp-N/android_kernel_lge_g3" remote="github" revision="cm-14.1" />
+  <project path="vendor/lge" name="G3-aosp-N/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
+<!-- END G3-Specific -->
+
+<!-- Sooti's Improvments -->
+<remove-project name="platform_vendor_aosp" />
+<project path="vendor/aosp" name="sooti/platform_vendor_aosp" remote="github" revision="n-mr2" />
+<remove-project name="platform_frameworks_base" />
+<project path="frameworks/base" name="sooti/platform_frameworks_base" remote="github" revision="n-mr2" />
+</manifest>
