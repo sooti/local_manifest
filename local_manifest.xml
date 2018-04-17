@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <project path="kernel/xiaomi/msm8953" name="PixelExperience-Devices/android_kernel_xiaomi_msm8953" remote="github" revision="oreo-mr1" />
+  <project path="device/xiaomi/tissot" name="sooti/android_device_xiaomi_tissot" remote="github" revision="o-mr1" />
+  <project path="vendor/xiaomi/tissot" name="sooti/android_vendor_xiaomi_tissot" remote="github" revision="oreo-mr1" />
+  <project path="hardware/qcom/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8996" remote="github" />
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.1-caf-8996" remote="github" />
+  <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8996" remote="github" />
+  <remove-project name="platform_external_connectivity" />
+  <project path="external/connectivity" name="sooti/external_connectivity" groups="qcom,pdk" revision="o-mr1" remote="github" />
+  <remove-project name="platform_system_vold" />
+  <project path="system/vold" name="sooti/system_vold" groups="qcom,pdk" revision="o-mr1" remote="github" />
+
+</manifest>
